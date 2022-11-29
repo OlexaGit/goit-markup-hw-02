@@ -38,7 +38,7 @@ body {
   list-style: none;
 }
 .menu-link {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -65,7 +65,6 @@ body {
 footer {
   background-color: var(--background-color);
   color: var(--text-background-color-footer);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -75,14 +74,14 @@ footer {
   color: var(--text-background-color);
 }
 .primery-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .modal-btn {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   border: none;
@@ -110,27 +109,24 @@ footer {
   margin: -1px;
 }
 .subtitle {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
 .subtitle-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
 .title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--primary-color);
 }
 .fone {
   background-color: var(--footer-logo-color);
@@ -138,20 +134,27 @@ footer {
 .fone-item {
   background-color: var(--text-background-color);
 }
-/* css portfolio */
-.header {
+/* 
+---------------css portfolio------------------
+----------------------------------------------
+*/
+/* header {
   padding: 168px 0;
-}
-.navigation-list {
+} */
+/* .navigation-list {
   displey: flex;
   justify-content: center;
-}
+} */
 .link-filtr-btn {
   display: block;
   text-decoration: none;
   padding: 10px;
   border: 1px solid #000000;
   color: #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 ..link-filtr-btn:not(:last-child) {
   margin-right: 30px;
