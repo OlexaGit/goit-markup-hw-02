@@ -12,20 +12,22 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   color: var(--primary-color);
+  background-color: var(--text-background-color);
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .link-logo,
 .menu-link {
   text-decoration: none;
 }
 .link-logo {
-  text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--accent-color-logo);
 }
 .link-logo-color {
@@ -39,13 +41,14 @@ body {
 }
 .menu-link {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--primary-color);
-}
+  }
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--accent-color-logo);
+}
+.current {
   color: var(--accent-color-logo);
 }
 .menu-contact {
@@ -54,21 +57,19 @@ body {
 .menu-contact {
   color: var(--secondary-color);
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+    }
 .menu-contact:hover,
 .menu-contact:focus {
   color: var(--accent-color-logo);
 }
 footer {
   background-color: var(--background-color);
-  color: var(--text-background-color-footer);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
+.footer-text {
+  color: var(--text-background-color-footer);
+    line-height: 1.5;
+  }
 .primery-section {
   background-color: var(--background-color);
   color: var(--text-background-color);
@@ -82,8 +83,7 @@ footer {
 }
 .modal-btn {
   font-family: inherit;
-  font-style: inherit;
-  font-weight: 700;
+    font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   border: none;
@@ -96,14 +96,7 @@ footer {
   background: var(--accent-color-logo);
   cursor: pointer;
   color: var(--text-background-color);
-  /* padding: 16px 32px;
-  gap: 10px; */
-  /* position: absolute; */
-  width: 170px;
-  height: 51px;
-  left: 635px;
-  top: 432px;
-}
+ }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--background-focus-btn);
@@ -127,10 +120,8 @@ footer {
   letter-spacing: 0.02em;
 }
 .subtitle-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-color);
+    line-height: 1.5;
+    color: var(--secondary-color);
 }
 .title {
   font-weight: 700;
@@ -186,8 +177,7 @@ footer {
   background: var(--footer-logo-color);
   cursor: pointer;
   margin: 10px;
-  padding: 8px, 16px, 8px, 16px;
-  width: 126px;
+    width: 126px;
   height: 48px;
   color: var(--accent-color-logo);
 }
